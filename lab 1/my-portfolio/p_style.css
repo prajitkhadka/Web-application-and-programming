@@ -1,0 +1,146 @@
+@media (min-width:600px){
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007ACC;
+    padding:10px 20px;
+}
+.logo h1 {
+    color: white; 
+    margin: 0;
+}
+.menu-btn {
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+    display:table-cell
+    gap:20px;
+}
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+.nav-links li a:hover{
+    color:#0d0d0e;
+}
+
+/*Home section*/
+.home-section{
+    padding:40px 10%;
+  
+    justify-content: center;
+    background-color: #F8F9FA;
+}
+.home-content { 
+
+gap: 40px; 
+align-items: center; 
+}
+.home-image img { 
+width: 350px; 
+height: auto; 
+border-radius: 10px; 
+}
+.home-intro h1 { 
+font-size: 32px; 
+display: flex;
+
+color: #343A40
+}
+.home-intro p { 
+font-size: 18px; 
+line-height: 1.5; 
+margin-bottom: 20px; 
+} 
+.home-btn { 
+padding: 10px 20px; 
+background-color: #007ACC; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+} 
+.home-btn:hover { 
+background-color: #005B99;
+ }
+}
+
+@media (min-width:1024px){
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007ACC;
+    padding:10px 20px;
+}
+.logo h1 {
+    color: white; 
+    margin: 0;
+}
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap:20px;
+}
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+.nav-links li a:hover{
+    color:#0d0d0e;
+}
+ .menu-btn {
+    display: none;
+  }
+/*Home section*/
+.home-section{
+    padding:40px 10%;
+    display:flex;
+    justify-content: center;
+    background-color: #F8F9FA;
+}
+.home-content { 
+display: flex; 
+gap: 40px; 
+align-items: center; 
+}
+.home-image img { 
+width: 350px; 
+height: auto; 
+border-radius: 10px; 
+}
+.home-intro h1 { 
+font-size: 32px; 
+margin-bottom: 10px; 
+color: #343A40
+}
+.home-intro p { 
+font-size: 18px; 
+line-height: 1.5; 
+margin-bottom: 20px; 
+} 
+.home-btn { 
+padding: 10px 20px; 
+background-color: #007ACC; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+} 
+.home-btn:hover { 
+background-color: #005B99;
+ }
+}
+
+
+  
+
+
